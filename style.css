@@ -1,0 +1,95 @@
+html , body {
+    margin: 0;
+    padding: 0;
+    background: url("backg.jpg");
+
+}
+html{ }
+window 
+{
+    color: red;
+}
+
+.top-bar 
+{
+     color: white;
+     height: 40px;
+     width: 100%;
+     background-color: rgb(36, 47, 59);
+     display: flex;
+     align-items: center;    /* aligns vertically */
+     justify-content: right;  /* aligns horizontally */     
+}
+#btn1{margin-right: 10px; position: relative; left: -4px;}
+button 
+{
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+    padding: 0;
+    color: rgb(210, 126, 243);
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+
+svg{
+    width: 22px;
+    height: 22px;
+    padding: 0;
+    margin: 0;
+    left: 0px;
+    top: 1px;
+    position: relative;
+}
+
+#clock 
+{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 12%;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.welcome 
+{
+    color: white;
+    text-align: center;
+    background-color: rgb(36, 47, 59);
+    width: 340px;
+    margin: auto;
+    padding: 20px 0px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+}
+
+.content 
+{
+    display: flex;
+    align-items: center;    /* aligns vertically */
+    justify-content: center;  /* aligns horizontally */
+}
+.content div 
+{
+    color: white;
+    float: left;
+    background-color: black;
+
+    width: 160px;
+    height: 200px;
+    text-align: left;
+
+    padding: 25px 0px 0px 25px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+    background-color: rgb(36, 47, 59);
+
+}
+
+.content div header {font-size: 24px;}
+.content div p {font-size: 16px; cursor: pointer;}
